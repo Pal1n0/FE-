@@ -1,0 +1,218 @@
+{
+  "login": {
+    "title": "Login",
+    "form_placeholder": "Login form will go here.",
+    "welcome": "Welcome Back",
+    "continue": "Sign in to continue to FinanceApp",
+    "email": "Email",
+    "password": "Password",
+    "signing_in": "Signing In...",
+    "sign_in": "Sign In",
+    "invalid_credentials": "Invalid credentials. Please try again.",
+    "invalid_email": "Invalid email address",
+    "password_required": "Password is required"
+  },
+  "language": {
+    "en": "English",
+    "sk": "Slovak",
+    "cs": "Czech"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "content": "Dashboard content will go here. Charts and stats will be displayed here."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "transactions": "Transactions",
+    "settings": "Settings",
+    "logout": "Logout",
+    "expenses": "Expenses",
+    "incomes": "Incomes",
+    "categories": "Categories",
+    "expenseCategories": "Expense Categories",
+    "incomeCategories": "Income Categories",
+    "user": "My Profile",
+    "userSettings": "User Profile",
+    "workspaceSettings": "Workspaces",
+    "workspaces": "Workspaces",
+    "tagManagement": "Tag Management",
+    "tags": "Tags"
+  },
+  "breadcrumbs": {
+    "home": "Home"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "edit": "Edit"
+  },
+  "settings": {
+    "title": "User Settings",
+    "description": "Manage your account and preferences.",
+    "loading": "Loading settings...",
+    "error": "Failed to load settings.",
+    "language": {
+      "label": "Language",
+      "placeholder": "Select a language"
+    },
+    "currency": {
+      "label": "Preferred Currency",
+      "placeholder": "Select a currency"
+    },
+    "dateFormat": {
+      "label": "Date Format",
+      "placeholder": "Select a date format"
+    },
+    "saveButton": "Save Changes",
+    "saving": "Saving...",
+    "noChangesMade": "No changes were made.",
+    "profile": {
+      "usernameRequired": "Username is required.",
+      "emailInvalid": "Invalid email address.",
+      "updateSuccess": "Profile updated successfully!",
+      "updateFailed": "Failed to update profile.",
+      "usernameLabel": "Username",
+      "usernamePlaceholder": "Enter your username",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email"
+    },
+    "password": {
+      "allPasswordFieldsRequired": "All password fields are required when changing password.",
+      "newPasswordsMismatch": "New passwords do not match.",
+      "updateSuccess": "Password updated successfully!",
+      "updateFailed": "Failed to update password.",
+      "title": "Password",
+      "description": "Change your account password.",
+      "currentPasswordLabel": "Current Password",
+      "currentPasswordPlaceholder": "Enter your current password",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "Enter your new password",
+      "confirmNewPasswordLabel": "Confirm New Password",
+      "confirmNewPasswordPlaceholder": "Confirm your new password"
+    },
+    "accountSecurity": {
+      "title": "Account and Security",
+      "description": "Manage your username, email, and password."
+    }
+  },
+  "app": {
+    "title": "Finance"
+  },
+  "placeholder": {
+    "under_construction": "This page is under construction.",
+    "page_not_found": "Page Not Found"
+  },
+  "workspaces": {
+    "title": "Workspaces",
+    "manage": "Manage Workspaces",
+    "create": {
+      "button": "Create Workspace",
+      "new": "+ New Workspace",
+      "nameRequired": "Workspace name is required.",
+      "nameMinLength": "Workspace name must be at least 2 characters.",
+      "success": "Workspace {{name}} created successfully!",
+      "error": "Failed to create workspace.",
+      "title": "Create New Workspace",
+      "description": "Enter the details for your new financial workspace.",
+      "form": {
+        "name": "Name",
+        "description": "Description",
+        "cancel": "Cancel",
+        "creating": "Creating...",
+        "create": "Create"
+      }
+    },
+    "view": "View",
+    "select": "Select Workspace",
+    "loading": "Loading workspaces...",
+    "error_fetching": "Failed to load workspaces.",
+    "show_archived": "Show Archived",
+    "archived_status": "Archived",
+    "archived_status_short": "Archived",
+    "inspect_archived": "Inspect Archived",
+    "detail": {
+        "title": "Workspace Details",
+        "createdAt": "Created:",
+        "notAvailable": "N/A",
+        "settingsTitle": "Workspace Settings",
+        "settingsDescription": "Manage the financial settings for this workspace.",
+        "domesticCurrency": "Domestic Currency",
+        "selectCurrency": "Select a currency",
+        "fiscalYearStartMonth": "Fiscal Year Start Month",
+        "selectMonth": "Select month",
+        "displayMode": "Display Mode",
+        "selectDisplayMode": "Select display mode",
+        "accountingMode": "Accounting Mode",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "updateSuccess": "Workspace settings updated successfully!",
+        "updateFailed": "Failed to update workspace settings.",
+        "loadError": "Error loading workspace details.",
+        "name": "Workspace Name",
+        "description": "Workspace Description",
+        "editPermissions": "Only owners and admins can edit workspace details.",
+        "membersTitle": "Members",
+        "membersDescription": "Total members: {{count}}",
+        "yourRole": "Your role",
+        "archivedWarning": "This workspace is archived and read-only.",
+        "dangerZone": {
+          "title": "Danger Zone",
+          "description": "Irreversible actions for your workspace.",
+          "archiveButton": "Archive Workspace",
+          "archiveConfirmTitle": "Confirm Archiving Workspace",
+          "archiveConfirmDescription": "Are you sure you want to archive the workspace '{{workspaceName}}'? It will become inactive but can be reactivated later.",
+          "archiveConfirmAction": "Archive",
+          "activateButton": "Activate Workspace",
+          "hardDeleteButton": "Permanently Delete Workspace",
+          "hardDeleteConfirmTitle": "Confirm Permanent Deletion",
+          "hardDeleteConfirmDescription1": "This action cannot be undone. All data associated with this workspace will be permanently deleted.",
+          "hardDeleteConfirmDescription2": "Please type the workspace name ({{workspaceName}}) to confirm.",
+          "hardDeleteConfirmPlaceholder": "Type workspace name to confirm",
+          "adminConfirmMessage": "As an admin deleting another user's workspace, additional confirmation is required. Type: {{adminCode}} to confirm.",
+          "hardDeleteConfirmAction": "Delete Permanently"
+        },
+        "archiveSuccess": "Workspace archived successfully!",
+        "archiveFailed": "Failed to archive workspace.",
+        "activateSuccess": "Workspace activated successfully!",
+        "activateFailed": "Failed to activate workspace.",
+        "hardDeleteSuccess": "Workspace permanently deleted!",
+        "hardDeleteFailed": "Failed to permanently delete workspace.",
+        "inspectModeTitle": "Inspection Mode Active",
+        "inspectModeDescription": "You are currently inspecting an archived workspace. Data displayed reflects this workspace. Select another workspace to exit inspection mode.",
+        "no_description": "No description provided.",
+        "settings_read_only": "This workspace is archived and its settings are read-only."
+      },
+      "stopInspecting": "Stop Inspecting"
+  },
+  "currencies": {
+    "USD": "US Dollar",
+    "EUR": "Euro",
+    "GBP": "British Pound",
+    "CZK": "Czech Koruna",
+    "HUF": "Hungarian Forint",
+    "CHF": "Swiss Franc",
+    "PLN": "Polish Zloty"
+  },
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "displayModes": {
+    "month": "Month only",
+    "day": "Full date"
+  },
+  "roles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "viewer": "Viewer"
+  }
+}

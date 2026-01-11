@@ -1,0 +1,220 @@
+{
+  "login": {
+    "title": "Prihlásenie",
+    "form_placeholder": "Prihlasovací formulár bude tu.",
+    "welcome": "Vitajte späť",
+    "continue": "Prihláste sa a pokračujte do FinanceApp",
+    "email": "Email",
+    "password": "Heslo",
+    "signing_in": "Prihlasujem...",
+    "sign_in": "Prihlásiť sa",
+    "invalid_credentials": "Nesprávne prihlasovacie údaje. Skúste to znova.",
+    "invalid_email": "Neplatná emailová adresa",
+    "password_required": "Heslo je povinné"
+  },
+  "language": {
+    "en": "Anglicky",
+    "sk": "Slovensky",
+    "cs": "Česky"
+  },
+  "common": {
+    "cancel": "Zrušiť",
+    "edit": "Upraviť"
+  },
+  "dashboard": {
+    "title": "Nástenka",
+    "content": "Obsah nástenky sa zobrazí tu. Grafy a štatistiky sa zobrazia tu."
+  },
+  "nav": {
+    "dashboard": "Nástenka",
+    "transactions": "Transakcie",
+    "settings": "Nastavenia",
+    "logout": "Odhlásiť sa",
+    "expenses": "Výdavky",
+    "incomes": "Príjmy",
+    "categories": "Kategórie",
+    "expenseCategories": "Výdavkové kategórie",
+    "incomeCategories": "Príjmové kategórie",
+    "user": "Môj profil",
+    "userSettings": "Môj profil",
+    "workspaceSettings": "Pracovné priestory",
+    "workspaces": "Pracovné priestory",
+    "tagManagement": "Správa značiek",
+    "tags": "Značky"
+  },
+  "breadcrumbs": {
+    "home": "Domov"
+  },
+  "settings": {
+    "title": "Používateľské nastavenia",
+    "description": "Spravujte svoj účet a preferencie.",
+    "loading": "Načítavajú sa nastavenia...",
+    "error": "Nepodarilo sa načítať nastavenia.",
+    "language": {
+      "label": "Jazyk",
+      "placeholder": "Vyberte jazyk"
+    },
+    "currency": {
+      "label": "Preferovaná mena",
+      "placeholder": "Vyberte menu"
+    },
+    "dateFormat": {
+      "label": "Formát dátumu",
+      "placeholder": "Vyberte formát dátumu"
+    },
+    "saveButton": "Uložiť zmeny",
+    "saving": "Ukladá sa...",
+    "noChangesMade": "Žiadne zmeny neboli vykonané.",
+    "profile": {
+      "usernameRequired": "Používateľské meno je povinné.",
+      "emailInvalid": "Neplatná emailová adresa.",
+      "updateSuccess": "Profil bol úspešne aktualizovaný!",
+      "updateFailed": "Nepodarilo sa aktualizovať profil.",
+      "usernameLabel": "Používateľské meno",
+      "usernamePlaceholder": "Zadajte svoje používateľské meno",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Zadajte svoj email"
+    },
+    "password": {
+      "allPasswordFieldsRequired": "Pri zmene hesla sú všetky polia hesla povinné.",
+      "newPasswordsMismatch": "Nové heslá sa nezhodujú.",
+      "updateSuccess": "Heslo bolo úspešne aktualizované!",
+      "updateFailed": "Nepodarilo sa aktualizovať heslo.",
+      "title": "Heslo",
+      "description": "Zmeňte heslo svojho účtu.",
+      "currentPasswordLabel": "Aktuálne heslo",
+      "currentPasswordPlaceholder": "Zadajte svoje aktuálne heslo",
+      "newPasswordLabel": "Nové heslo",
+      "newPasswordPlaceholder": "Zadajte svoje nové heslo",
+      "confirmNewPasswordLabel": "Potvrďte nové heslo",
+      "confirmNewPasswordPlaceholder": "Potvrďte svoje nové heslo"
+    },
+    "accountSecurity": {
+      "title": "Účet a zabezpečenie",
+      "description": "Spravujte svoje používateľské meno, email a heslo."
+    }
+  },
+  "app": {
+    "title": "Financie"
+  },
+  "placeholder": {
+    "under_construction": "Táto stránka je vo výstavbe.",
+    "page_not_found": "Stránka sa nenašla"
+  },
+  "workspaces": {
+    "title": "Pracovné priestory",
+    "manage": "Spravovať pracovné priestory",
+    "create": {
+      "button": "Vytvoriť pracovný priestor",
+      "new": "+ Nový pracovný priestor",
+      "nameRequired": "Názov pracovného priestoru je povinný.",
+      "nameMinLength": "Názov pracovného priestoru musí mať aspoň 2 znaky.",
+      "success": "Pracovný priestor {{name}} bol úspešne vytvorený!",
+      "error": "Nepodarilo sa vytvoriť pracovný priestor.",
+      "title": "Vytvoriť nový pracovný priestor",
+      "description": "Zadajte podrobnosti pre váš nový finančný pracovný priestor.",
+      "form": {
+        "name": "Názov",
+        "description": "Popis",
+        "cancel": "Zrušiť",
+        "creating": "Vytváram...",
+        "create": "Vytvoriť"
+      }
+    },
+    "view": "Zobraziť",
+    "select": "Vybrať pracovný priestor",
+    "loading": "Načítavam pracovné priestory...",
+    "error_fetching": "Nepodarilo sa načítať pracovné priestory.",
+    "show_archived": "Zobraziť archivované",
+    "archived_status": "Archivovaný",
+    "archived_status_short": "Archivovaný",
+    "inspect_archived": "Preskúmať archivované",
+    "no_description": "Popis nebol poskytnutý.",
+    "detail": {
+        "title": "Podrobnosti o pracovnom priestore",
+        "createdAt": "Vytvorené:",
+        "notAvailable": "N/A",
+        "settingsTitle": "Nastavenia pracovného priestoru",
+        "settingsDescription": "Spravujte finančné nastavenia pre tento pracovný priestor.",
+        "domesticCurrency": "Domáca mena",
+        "selectCurrency": "Vyberte menu",
+        "fiscalYearStartMonth": "Počiatočný mesiac fiškálneho roka",
+        "selectMonth": "Vyberte mesiac",
+        "displayMode": "Režim zobrazenia",
+        "selectDisplayMode": "Vyberte režim zobrazenia",
+        "accountingMode": "Účtovný režim",
+        "save": "Uložiť zmeny",
+        "saving": "Ukladám...",
+        "updateSuccess": "Nastavenia pracovného priestoru boli úspešne aktualizované!",
+        "updateFailed": "Nepodarilo sa aktualizovať nastavenia pracovného priestoru.",
+        "loadError": "Chyba pri načítaní podrobností o pracovnom priestore.",
+        "name": "Názov pracovného priestoru",
+        "description": "Popis pracovného priestoru",
+        "editPermissions": "Podrobnosti o pracovnom priestore môžu upravovať iba vlastníci a správcovia.",
+        "membersTitle": "Členovia",
+        "membersDescription": "Celkový počet členov: {{count}}",
+        "yourRole": "Tvoja rola",
+        "archivedWarning": "Tento pracovný priestor je archivovaný a iba na čítanie.",
+        "settings_read_only": "Tento pracovný priestor je archivovaný a jeho nastavenia sú iba na čítanie.",
+        "dangerZone": {
+          "title": "Nebezpečná zóna",
+          "description": "Návratné akcie pre váš pracovný priestor.",
+          "archiveButton": "Archivovať pracovný priestor",
+          "archiveConfirmTitle": "Potvrdiť archiváciu pracovného priestoru",
+          "archiveConfirmDescription": "Naozaj chcete archivovať pracovný priestor '{{workspaceName}}'? Stane sa neaktívnym, ale neskôr ho možno znova aktivovať.",
+          "archiveConfirmAction": "Archivovať",
+          "activateButton": "Aktivovať pracovný priestor",
+          "hardDeleteButton": "Trvalo odstrániť pracovný priestor",
+          "hardDeleteConfirmTitle": "Potvrdiť trvalé odstránenie",
+          "hardDeleteConfirmDescription1": "Túto akciu nemožno vrátiť späť. Všetky údaje spojené s týmto pracovným priestorom budú trvalo odstránené.",
+          "hardDeleteConfirmDescription2": "Pre potvrdenie zadajte názov pracovného priestoru ({{workspaceName}}).",
+          "hardDeleteConfirmPlaceholder": "Zadajte názov pracovného priestoru pre potvrdenie",
+          "adminConfirmMessage": "Ako administrátor, ktorý odstraňuje pracovný priestor iného používateľa, je potrebné dodatočné potvrdenie. Pre potvrdenie zadajte: {{adminCode}}.",
+          "hardDeleteConfirmAction": "Trvalo odstrániť"
+        },
+        "archiveSuccess": "Pracovný priestor úspešne archivovaný!",
+        "archiveFailed": "Archivácia pracovného priestoru zlyhala.",
+        "activateSuccess": "Pracovný priestor úspešne aktivovaný!",
+        "activateFailed": "Aktivácia pracovného priestoru zlyhala.",
+        "hardDeleteSuccess": "Pracovný priestor trvalo odstránený!",
+        "hardDeleteFailed": "Trvalé odstránenie pracovného priestoru zlyhalo.",
+        "inspectModeTitle": "Režim inšpekcie aktívny",
+        "inspectModeDescription": "Momentálne kontrolujete archivovaný pracovný priestor. Zobrazené údaje odrážajú tento pracovný priestor. Pre ukončenie režimu inšpekcie vyberte iný pracovný priestor."
+      },
+      "ownerDeletePrerequisite": "Ako vlastník musíte pred trvalým odstránením pracovného priestoru odstrániť všetkých ostatných členov.",
+      "noDeletePermissionTooltip": "Nemáte oprávnenie na vykonanie tejto akcie.",
+      "stopInspecting": "Zastaviť kontrolu"
+  },
+  "currencies": {
+    "USD": "Americký dolár",
+    "EUR": "Euro",
+    "GBP": "Britská libra",
+    "CZK": "Česká koruna",
+    "HUF": "Maďarský forint",
+    "CHF": "Švajčiarsky frank",
+    "PLN": "Poľský zlotý"
+  },
+  "months": {
+    "1": "Január",
+    "2": "Február",
+    "3": "Marec",
+    "4": "Apríl",
+    "5": "Máj",
+    "6": "Jún",
+    "7": "Júl",
+    "8": "August",
+    "9": "September",
+    "10": "Október",
+    "11": "November",
+    "12": "December"
+  },
+  "displayModes": {
+    "month": "Iba mesiac",
+    "day": "Plný dátum"
+  },
+  "roles": {
+    "owner": "Vlastník",
+    "admin": "Administrátor",
+    "viewer": "Prezerajúci"
+  }
+}
